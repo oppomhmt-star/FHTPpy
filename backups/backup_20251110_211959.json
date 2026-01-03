@@ -1,0 +1,299 @@
+{
+    "portfoy": [
+        {
+            "sembol": "AKBNK",
+            "adet": 100,
+            "ort_maliyet": 10.004,
+            "guncel_fiyat": 59.900001525878906
+        },
+        {
+            "sembol": "AKSA",
+            "adet": 1000,
+            "ort_maliyet": 9.2537,
+            "guncel_fiyat": 11.039999961853027
+        },
+        {
+            "sembol": "AVPGY",
+            "adet": 1000,
+            "ort_maliyet": 42.36694,
+            "guncel_fiyat": 55.5
+        },
+        {
+            "sembol": "BIMAS",
+            "adet": 10,
+            "ort_maliyet": 525.21,
+            "guncel_fiyat": 546.0
+        },
+        {
+            "sembol": "DOAS",
+            "adet": 10,
+            "ort_maliyet": 170.068,
+            "guncel_fiyat": 178.6999969482422
+        },
+        {
+            "sembol": "EREGL",
+            "adet": 1000,
+            "ort_maliyet": 15.006,
+            "guncel_fiyat": 25.239999771118164
+        },
+        {
+            "sembol": "FROTO",
+            "adet": 100,
+            "ort_maliyet": 90.036,
+            "guncel_fiyat": 96.44999694824219
+        },
+        {
+            "sembol": "GARAN",
+            "adet": 300,
+            "ort_maliyet": 95.33812,
+            "guncel_fiyat": 130.10000610351562
+        },
+        {
+            "sembol": "ISMEN",
+            "adet": 1100,
+            "ort_maliyet": 40.016,
+            "guncel_fiyat": 41.18000030517578
+        },
+        {
+            "sembol": "YGGYO",
+            "adet": 100,
+            "ort_maliyet": 100.04,
+            "guncel_fiyat": 137.8000030517578
+        }
+    ],
+    "islemler": [
+        {
+            "sembol": "AEFES",
+            "tip": "Satış",
+            "adet": 1000,
+            "fiyat": 14.430000305175781,
+            "toplam": 14430.000305175781,
+            "komisyon": 5.772000122070313,
+            "tarih": "2025-11-09 18:01:31"
+        },
+        {
+            "sembol": "EREGL",
+            "tip": "Alım",
+            "adet": 1000,
+            "fiyat": 15.0,
+            "toplam": 15000.0,
+            "komisyon": 6.0,
+            "tarih": "2025-11-09 18:01:00"
+        },
+        {
+            "sembol": "AKBNK",
+            "tip": "Alım",
+            "adet": 100,
+            "fiyat": 10.0,
+            "toplam": 1000.0,
+            "komisyon": 0.4,
+            "tarih": "2025-11-09 17:54:18"
+        },
+        {
+            "sembol": "AEFES",
+            "tip": "Alım",
+            "adet": 1000,
+            "fiyat": 10.0,
+            "toplam": 10000.0,
+            "komisyon": 4.0,
+            "tarih": "2025-11-09 17:37:48"
+        },
+        {
+            "sembol": "YGGYO",
+            "tip": "Alım",
+            "adet": 100,
+            "fiyat": 100.0,
+            "toplam": 10000.0,
+            "komisyon": 4.0,
+            "tarih": "2025-11-09 17:33:40"
+        },
+        {
+            "sembol": "ISMEN",
+            "tip": "Alım",
+            "adet": 1000,
+            "fiyat": 40.0,
+            "toplam": 40000.0,
+            "komisyon": 16.0,
+            "tarih": "2025-11-09 17:33:05"
+        },
+        {
+            "sembol": "BIMAS",
+            "tip": "Alım",
+            "adet": 10,
+            "fiyat": 525.0,
+            "toplam": 5250.0,
+            "komisyon": 2.1,
+            "tarih": "2025-11-08 22:02:37"
+        },
+        {
+            "sembol": "AVPGY",
+            "tip": "Alım",
+            "adet": 1000,
+            "fiyat": 42.35,
+            "toplam": 42350.0,
+            "komisyon": 16.94,
+            "tarih": "2025-11-08 21:23:03"
+        },
+        {
+            "sembol": "AKSA",
+            "tip": "Alım",
+            "adet": 1000,
+            "fiyat": 9.25,
+            "toplam": 9250.0,
+            "komisyon": 3.7,
+            "tarih": "2025-11-08 20:10:29"
+        },
+        {
+            "sembol": "DOAS",
+            "tip": "Alım",
+            "adet": 10,
+            "fiyat": 170.0,
+            "toplam": 1700.0,
+            "komisyon": 0.68,
+            "tarih": "2025-11-08 20:08:06"
+        },
+        {
+            "sembol": "FROTO",
+            "tip": "Alım",
+            "adet": 100,
+            "fiyat": 90.0,
+            "toplam": 9000.0,
+            "komisyon": 0.0,
+            "tarih": "2025-11-08 20:02:45"
+        },
+        {
+            "sembol": "ISMEN",
+            "tip": "Alım",
+            "adet": 100,
+            "fiyat": 40.0,
+            "toplam": 4000.0,
+            "komisyon": 0.0,
+            "tarih": "2025-11-08 19:53:28"
+        },
+        {
+            "sembol": "THYAO",
+            "tip": "Satış",
+            "adet": 50,
+            "fiyat": 265.0,
+            "toplam": 13250.0,
+            "komisyon": 0.0,
+            "tarih": "2024-03-05 13:20:00"
+        },
+        {
+            "sembol": "GARAN",
+            "tip": "Alım",
+            "adet": 300,
+            "fiyat": 95.3,
+            "toplam": 28590.0,
+            "komisyon": 0.0,
+            "tarih": "2024-02-10 09:45:00"
+        }
+    ],
+    "temettüler": [
+        {
+            "sembol": "AKBNK",
+            "tutar": 1250.0,
+            "adet": 500,
+            "hisse_basi_tutar": 2.5,
+            "tarih": "2024-03-15 10:00:00"
+        }
+    ],
+    "ayarlar": {
+        "start_page": "dashboard",
+        "language": "tr",
+        "date_format": "DD/MM/YYYY",
+        "currency_format": "₺",
+        "number_format": "1.234,56",
+        "tema": "dark",
+        "color_scheme": "#3b82f6",
+        "font_size": "normal",
+        "chart_animations": true,
+        "compact_mode": false,
+        "sidebar_width": 200,
+        "otomatik_guncelleme": true,
+        "guncelleme_suresi": 15,
+        "update_after_hours": true,
+        "cache_duration": 15,
+        "api_timeout": 10,
+        "bildirimler": true,
+        "notifications_enabled": true,
+        "desktop_notifications": true,
+        "sound_alerts": true,
+        "price_target_alert": true,
+        "price_change_threshold": "5",
+        "daily_change_threshold": "3",
+        "commission_rate": 0.0004,
+        "tax_rate": 0.175,
+        "portfolio_target": "5000000",
+        "risk_tolerance": "orta",
+        "investment_period": "orta",
+        "default_chart_type": "line",
+        "default_time_range": "1y",
+        "show_sma": true,
+        "show_bollinger": false,
+        "show_volume": true,
+        "increase_color": "green",
+        "decrease_color": "red",
+        "pin_lock": false,
+        "pin_code": "",
+        "auto_lock_time": 15,
+        "hide_sensitive_data": false,
+        "block_screenshot": false,
+        "auto_backup": true,
+        "backup_frequency": "weekly",
+        "backup_location": "C:\\Users\\Spa\\Documents\\trae_projects\\vbadeneme\\HisseTakip(YENI)\\backups",
+        "last_backup": "2025-11-08T19:54:31.014566",
+        "debug_mode": false,
+        "performance_mode": false,
+        "log_level": "error",
+        "api_provider": "yfinance",
+        "finnhub_api_key": "Z0FBQUFBQnBFS0pnMjBmd18tSXYzNXVnUWRpUXJTTGktaldkdzZ2ajg0MzBYWmZFUnFmdHJ2d05BQ0RFUThJSWVJNElxcWROdXNUdTFmNjdvSnFzbnA4RS1CNVFLMmtuUy1iUldFWjhRT191NFhXSlBkTy1kWEViVjRDdTlKZC0xMXgzSmI2M19HamM=",
+        "alpha_vantage_api_key": "",
+        "iex_api_key": "",
+        "cloud_sync_enabled": false,
+        "cloud_url": "http://localhost:5000",
+        "cloud_auto_sync": true,
+        "cloud_sync_interval": 300,
+        "doviz_kuru": 34.5,
+        "dil": "tr",
+        "currency_symbols": [
+            "DOLAR",
+            "EURO",
+            "ALTIN",
+            "BTC"
+        ],
+        "gosterilecek_hisseler": 10,
+        "keyboard_shortcuts": {
+            "new_stock": "Control-n",
+            "backup": "Control-s",
+            "search": "Control-f",
+            "refresh_prices": "Control-r",
+            "refresh_page": "F5",
+            "quit_app": "Control-q",
+            "page_dashboard": "Control-Key-1",
+            "page_portfolio": "Control-Key-2",
+            "page_transactions": "Control-Key-3",
+            "page_settings": "Control-Key-4",
+            "help": "F1",
+            "escape": "Escape"
+        },
+        "advanced_api_key": "",
+        "cloud_sync_frequency": "daily",
+        "iex_cloud_api_key": ""
+    },
+    "price_alerts": [
+        {
+            "id": 2,
+            "user_id": 1,
+            "symbol": "ISMEN",
+            "target_price": 48.0,
+            "condition": "below",
+            "note": "",
+            "created_at": "2025-11-09T03:59:45.942182",
+            "active": 0,
+            "triggered": 1,
+            "triggered_at": "2025-11-09T16:41:04.930611",
+            "triggered_price": null
+        }
+    ]
+}

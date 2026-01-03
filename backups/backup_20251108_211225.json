@@ -1,0 +1,165 @@
+{
+    "portfoy": [
+        {
+            "sembol": "AKSA",
+            "adet": 100,
+            "ort_maliyet": 9.2537,
+            "guncel_fiyat": 11.079999923706055
+        },
+        {
+            "sembol": "DOAS",
+            "adet": 10,
+            "ort_maliyet": 170.068,
+            "guncel_fiyat": 179.3000030517578
+        },
+        {
+            "sembol": "FROTO",
+            "adet": 100,
+            "ort_maliyet": 90.036,
+            "guncel_fiyat": 97.0999984741211
+        },
+        {
+            "sembol": "GARAN",
+            "adet": 300,
+            "ort_maliyet": 95.33812,
+            "guncel_fiyat": 133.5
+        },
+        {
+            "sembol": "ISMEN",
+            "adet": 100,
+            "ort_maliyet": 40.016,
+            "guncel_fiyat": 42.060001373291016
+        }
+    ],
+    "islemler": [
+        {
+            "sembol": "AKSA",
+            "tip": "Alım",
+            "adet": 100,
+            "fiyat": 9.25,
+            "toplam": 925.0,
+            "komisyon": 0.0,
+            "tarih": "2025-11-08 20:10:29"
+        },
+        {
+            "sembol": "DOAS",
+            "tip": "Alım",
+            "adet": 10,
+            "fiyat": 170.0,
+            "toplam": 1700.0,
+            "komisyon": 0.0,
+            "tarih": "2025-11-08 20:08:06"
+        },
+        {
+            "sembol": "FROTO",
+            "tip": "Alım",
+            "adet": 100,
+            "fiyat": 90.0,
+            "toplam": 9000.0,
+            "komisyon": 0.0,
+            "tarih": "2025-11-08 20:02:45"
+        },
+        {
+            "sembol": "ISMEN",
+            "tip": "Alım",
+            "adet": 100,
+            "fiyat": 40.0,
+            "toplam": 4000.0,
+            "komisyon": 0.0,
+            "tarih": "2025-11-08 19:53:28"
+        },
+        {
+            "sembol": "THYAO",
+            "tip": "Satış",
+            "adet": 50,
+            "fiyat": 265.0,
+            "toplam": 13250.0,
+            "komisyon": 0.0,
+            "tarih": "2024-03-05 13:20:00"
+        },
+        {
+            "sembol": "GARAN",
+            "tip": "Alım",
+            "adet": 300,
+            "fiyat": 95.3,
+            "toplam": 28590.0,
+            "komisyon": 0.0,
+            "tarih": "2024-02-10 09:45:00"
+        }
+    ],
+    "temettüler": [
+        {
+            "sembol": "AKBNK",
+            "tutar": 1250.0,
+            "adet": 500,
+            "hisse_basi_tutar": 2.5,
+            "tarih": "2024-03-15 10:00:00"
+        }
+    ],
+    "ayarlar": {
+        "start_page": "dashboard",
+        "language": "tr",
+        "date_format": "DD/MM/YYYY",
+        "currency_format": "₺",
+        "number_format": "1.234,56",
+        "tema": "dark",
+        "color_scheme": "#3b82f6",
+        "font_size": "normal",
+        "chart_animations": true,
+        "compact_mode": false,
+        "sidebar_width": 200,
+        "otomatik_guncelleme": true,
+        "guncelleme_suresi": 15,
+        "update_after_hours": true,
+        "cache_duration": 15,
+        "api_timeout": 10,
+        "bildirimler": true,
+        "notifications_enabled": true,
+        "desktop_notifications": true,
+        "sound_alerts": true,
+        "price_target_alert": true,
+        "price_change_threshold": 5,
+        "daily_change_threshold": 3,
+        "commission_rate": 0.04,
+        "tax_rate": 0,
+        "portfolio_target": 100000,
+        "risk_tolerance": "orta",
+        "investment_period": "orta",
+        "default_chart_type": "line",
+        "default_time_range": "1y",
+        "show_sma": true,
+        "show_bollinger": false,
+        "show_volume": true,
+        "increase_color": "green",
+        "decrease_color": "red",
+        "pin_lock": false,
+        "pin_code": "",
+        "auto_lock_time": 15,
+        "hide_sensitive_data": false,
+        "block_screenshot": false,
+        "auto_backup": true,
+        "backup_frequency": "weekly",
+        "backup_location": "C:\\Users\\Spa\\Documents\\trae_projects\\vbadeneme\\HisseTakip(YENI)\\backups",
+        "last_backup": "2025-11-08T19:54:31.014566",
+        "debug_mode": false,
+        "performance_mode": false,
+        "log_level": "error",
+        "api_provider": "yfinance",
+        "finnhub_api_key": "",
+        "alpha_vantage_api_key": "",
+        "iex_api_key": "",
+        "cloud_sync_enabled": false,
+        "cloud_url": "http://localhost:5000",
+        "cloud_auto_sync": true,
+        "cloud_sync_interval": 300,
+        "doviz_kuru": 34.5,
+        "dil": "tr",
+        "currency_symbols": [
+            "DOLAR",
+            "EURO",
+            "ALTIN",
+            "BTC"
+        ],
+        "gosterilecek_hisseler": 10
+    }
+}
