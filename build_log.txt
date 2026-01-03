@@ -1,0 +1,1074 @@
+298 INFO: PyInstaller: 6.16.0, contrib hooks: 2025.9
+299 INFO: Python: 3.13.7
+330 INFO: Platform: Windows-11-10.0.26100-SP0
+330 INFO: Python environment: C:\Users\Spa\AppData\Local\Programs\Python\Python313
+331 INFO: wrote C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build.spec
+332 DEBUG: Testing UPX availability ...
+333 DEBUG: UPX is not available.
+334 DEBUG: script: C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build.py
+334 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip',
+ 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs',
+ 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib',
+ 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313',
+ 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages',
+ 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32',
+ 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\Spa\\Documents\\trae_projects\\vbadeneme\\HisseTakip(YENI)']
+368 DEBUG: discover_hook_directories: Hook directories: [('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\lark\\__pyinstaller', 0), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_pyinstaller', 0), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\playwright\\_impl\\__pyinstaller', 0), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks', -1000), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib', -1000)]
+891 INFO: checking Analysis
+891 INFO: Building Analysis because Analysis-00.toc is non existent
+892 INFO: Looking for Python shared library...
+892 INFO: Using Python shared library: C:\Users\Spa\AppData\Local\Programs\Python\Python313\python313.dll
+892 INFO: Running Analysis Analysis-00.toc
+892 INFO: Target bytecode optimization level: 0
+892 INFO: Initializing module dependency graph...
+892 INFO: Initializing module graph hook caches...
+909 INFO: Analyzing modules for base_library.zip ...
+909 DEBUG: Collecting submodules for re
+246 DEBUG: collect_submodules - scanning (sub)package re
+246 DEBUG: collect_submodules - scanning (sub)package re in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\re']
+1329 DEBUG: collect_submodules - found submodules: ['re', 're._casefix', 're._compiler', 're._constants', 're._parser']
+1329 DEBUG: Collecting submodules for encodings
+243 DEBUG: collect_submodules - scanning (sub)package encodings
+243 DEBUG: collect_submodules - scanning (sub)package encodings in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings']
+1748 DEBUG: collect_submodules - found submodules: ['encodings', 'encodings.aliases', 'encodings.ascii', 'encodings.base64_codec', 'encodings.big5', 'encodings.big5hkscs', 'encodings.bz2_codec', 'encodings.charmap', 'encodings.cp037', 'encodings.cp1006', 'encodings.cp1026', 'encodings.cp1125', 'encodings.cp1140', 'encodings.cp1250', 'encodings.cp1251', 'encodings.cp1252', 'encodings.cp1253', 'encodings.cp1254', 'encodings.cp1255', 'encodings.cp1256', 'encodings.cp1257', 'encodings.cp1258', 'encodings.cp273', 'encodings.cp424', 'encodings.cp437', 'encodings.cp500', 'encodings.cp720', 'encodings.cp737', 'encodings.cp775', 'encodings.cp850', 'encodings.cp852', 'encodings.cp855', 'encodings.cp856', 'encodings.cp857', 'encodings.cp858', 'encodings.cp860', 'encodings.cp861', 'encodings.cp862', 'encodings.cp863', 'encodings.cp864', 'encodings.cp865', 'encodings.cp866', 'encodings.cp869', 'encodings.cp874', 'encodings.cp875', 'encodings.cp932', 'encodings.cp949', 'encodings.cp950', 'encodings.euc_jis_2004', 'encodings.euc_jisx0213', 'encodings.euc_jp', 'encodings.euc_kr', 'encodings.gb18030', 'encodings.gb2312', 'encodings.gbk', 'encodings.hex_codec', 'encodings.hp_roman8', 'encodings.hz', 'encodings.idna', 'encodings.iso2022_jp', 'encodings.iso2022_jp_1', 'encodings.iso2022_jp_2', 'encodings.iso2022_jp_2004', 'encodings.iso2022_jp_3', 'encodings.iso2022_jp_ext', 'encodings.iso2022_kr', 'encodings.iso8859_1', 'encodings.iso8859_10', 'encodings.iso8859_11', 'encodings.iso8859_13', 'encodings.iso8859_14', 'encodings.iso8859_15', 'encodings.iso8859_16', 'encodings.iso8859_2', 'encodings.iso8859_3', 'encodings.iso8859_4', 'encodings.iso8859_5', 'encodings.iso8859_6', 'encodings.iso8859_7', 'encodings.iso8859_8', 'encodings.iso8859_9', 'encodings.johab', 'encodings.koi8_r', 'encodings.koi8_t', 'encodings.koi8_u', 'encodings.kz1048', 'encodings.latin_1', 'encodings.mac_arabic', 'encodings.mac_croatian', 'encodings.mac_cyrillic', 'encodings.mac_farsi', 'encodings.mac_greek', 'encodings.mac_iceland', 'encodings.mac_latin2', 'encodings.mac_roman', 'encodings.mac_romanian', 'encodings.mac_turkish', 'encodings.mbcs', 'encodings.oem', 'encodings.palmos', 'encodings.ptcp154', 'encodings.punycode', 'encodings.quopri_codec', 'encodings.raw_unicode_escape', 'encodings.rot_13', 'encodings.shift_jis', 'encodings.shift_jis_2004', 'encodings.shift_jisx0213', 'encodings.tis_620', 'encodings.undefined', 'encodings.unicode_escape', 'encodings.utf_16', 'encodings.utf_16_be', 'encodings.utf_16_le', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.utf_32_le', 'encodings.utf_7', 'encodings.utf_8', 'encodings.utf_8_sig', 'encodings.uu_codec', 'encodings.zlib_codec']
+1748 DEBUG: Collecting submodules for collections
+239 DEBUG: collect_submodules - scanning (sub)package collections
+239 DEBUG: collect_submodules - scanning (sub)package collections in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\collections']
+2156 DEBUG: collect_submodules - found submodules: ['collections']
+2193 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+2194 DEBUG: Collecting submodules for encodings
+244 DEBUG: collect_submodules - scanning (sub)package encodings
+245 DEBUG: collect_submodules - scanning (sub)package encodings in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings']
+2614 DEBUG: collect_submodules - found submodules: ['encodings', 'encodings.aliases', 'encodings.ascii', 'encodings.base64_codec', 'encodings.big5', 'encodings.big5hkscs', 'encodings.bz2_codec', 'encodings.charmap', 'encodings.cp037', 'encodings.cp1006', 'encodings.cp1026', 'encodings.cp1125', 'encodings.cp1140', 'encodings.cp1250', 'encodings.cp1251', 'encodings.cp1252', 'encodings.cp1253', 'encodings.cp1254', 'encodings.cp1255', 'encodings.cp1256', 'encodings.cp1257', 'encodings.cp1258', 'encodings.cp273', 'encodings.cp424', 'encodings.cp437', 'encodings.cp500', 'encodings.cp720', 'encodings.cp737', 'encodings.cp775', 'encodings.cp850', 'encodings.cp852', 'encodings.cp855', 'encodings.cp856', 'encodings.cp857', 'encodings.cp858', 'encodings.cp860', 'encodings.cp861', 'encodings.cp862', 'encodings.cp863', 'encodings.cp864', 'encodings.cp865', 'encodings.cp866', 'encodings.cp869', 'encodings.cp874', 'encodings.cp875', 'encodings.cp932', 'encodings.cp949', 'encodings.cp950', 'encodings.euc_jis_2004', 'encodings.euc_jisx0213', 'encodings.euc_jp', 'encodings.euc_kr', 'encodings.gb18030', 'encodings.gb2312', 'encodings.gbk', 'encodings.hex_codec', 'encodings.hp_roman8', 'encodings.hz', 'encodings.idna', 'encodings.iso2022_jp', 'encodings.iso2022_jp_1', 'encodings.iso2022_jp_2', 'encodings.iso2022_jp_2004', 'encodings.iso2022_jp_3', 'encodings.iso2022_jp_ext', 'encodings.iso2022_kr', 'encodings.iso8859_1', 'encodings.iso8859_10', 'encodings.iso8859_11', 'encodings.iso8859_13', 'encodings.iso8859_14', 'encodings.iso8859_15', 'encodings.iso8859_16', 'encodings.iso8859_2', 'encodings.iso8859_3', 'encodings.iso8859_4', 'encodings.iso8859_5', 'encodings.iso8859_6', 'encodings.iso8859_7', 'encodings.iso8859_8', 'encodings.iso8859_9', 'encodings.johab', 'encodings.koi8_r', 'encodings.koi8_t', 'encodings.koi8_u', 'encodings.kz1048', 'encodings.latin_1', 'encodings.mac_arabic', 'encodings.mac_croatian', 'encodings.mac_cyrillic', 'encodings.mac_farsi', 'encodings.mac_greek', 'encodings.mac_iceland', 'encodings.mac_latin2', 'encodings.mac_roman', 'encodings.mac_romanian', 'encodings.mac_turkish', 'encodings.mbcs', 'encodings.oem', 'encodings.palmos', 'encodings.ptcp154', 'encodings.punycode', 'encodings.quopri_codec', 'encodings.raw_unicode_escape', 'encodings.rot_13', 'encodings.shift_jis', 'encodings.shift_jis_2004', 'encodings.shift_jisx0213', 'encodings.tis_620', 'encodings.undefined', 'encodings.unicode_escape', 'encodings.utf_16', 'encodings.utf_16_be', 'encodings.utf_16_le', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.utf_32_le', 'encodings.utf_7', 'encodings.utf_8', 'encodings.utf_8_sig', 'encodings.uu_codec', 'encodings.zlib_codec']
+2956 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+2957 DEBUG: Suppressing import of 'doctest' from module 'heapq' due to excluded import 'doctest' specified in a hook for 'heapq' (or its parent package(s)).
+5761 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+5768 DEBUG: Suppressing import of 'doctest' from module 'pickle' due to excluded import 'doctest' specified in a hook for 'pickle' (or its parent package(s)).
+5768 DEBUG: Suppressing import of 'argparse' from module 'pickle' due to excluded import 'argparse' specified in a hook for 'pickle' (or its parent package(s)).
+7591 INFO: Caching module dependency graph...
+7659 INFO: Analyzing C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build.py
+7726 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+7727 DEBUG: Suppressing import of 'plistlib' from module 'platform' due to excluded import 'plistlib' specified in a hook for 'platform' (or its parent package(s)).
+7756 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+8081 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+8082 DEBUG: Suppressing import of '_osx_support' from module 'sysconfig' due to excluded import '_osx_support' specified in a hook for 'sysconfig' (or its parent package(s)).
+8086 DEBUG: Suppressing import of '_osx_support' from module 'sysconfig' due to excluded import '_osx_support' specified in a hook for 'sysconfig' (or its parent package(s)).
+8875 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8875 INFO: SetuptoolsInfo: initializing cached setuptools info...
+361 DEBUG: Collecting submodules for setuptools._distutils
+362 DEBUG: collect_submodules - scanning (sub)package setuptools._distutils
+362 DEBUG: collect_submodules - scanning (sub)package setuptools._distutils in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_distutils']
+363 DEBUG: collect_submodules - scanning (sub)package setuptools._distutils.compat
+363 DEBUG: collect_submodules - scanning (sub)package setuptools._distutils.compat in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_distutils\\compat']
+364 DEBUG: collect_submodules - scanning (sub)package setuptools._distutils.command
+364 DEBUG: collect_submodules - scanning (sub)package setuptools._distutils.command in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_distutils\\command']
+364 DEBUG: collect_submodules - found submodules: ['setuptools._distutils', 'setuptools._distutils._log', 'setuptools._distutils._macos_compat', 'setuptools._distutils._modified', 'setuptools._distutils._msvccompiler', 'setuptools._distutils.archive_util', 'setuptools._distutils.ccompiler', 'setuptools._distutils.cmd', 'setuptools._distutils.command', 'setuptools._distutils.command._framework_compat', 'setuptools._distutils.command.bdist', 'setuptools._distutils.command.bdist_dumb', 'setuptools._distutils.command.bdist_rpm', 'setuptools._distutils.command.build', 'setuptools._distutils.command.build_clib', 'setuptools._distutils.command.build_ext', 'setuptools._distutils.command.build_py', 'setuptools._distutils.command.build_scripts', 'setuptools._distutils.command.check', 'setuptools._distutils.command.clean', 'setuptools._distutils.command.config', 'setuptools._distutils.command.install', 'setuptools._distutils.command.install_data', 'setuptools._distutils.command.install_egg_info', 'setuptools._distutils.command.install_headers', 'setuptools._distutils.command.install_lib', 'setuptools._distutils.command.install_scripts', 'setuptools._distutils.command.sdist', 'setuptools._distutils.compat', 'setuptools._distutils.compat.numpy', 'setuptools._distutils.compat.py39', 'setuptools._distutils.core', 'setuptools._distutils.cygwinccompiler', 'setuptools._distutils.debug', 'setuptools._distutils.dep_util', 'setuptools._distutils.dir_util', 'setuptools._distutils.dist', 'setuptools._distutils.errors', 'setuptools._distutils.extension', 'setuptools._distutils.fancy_getopt', 'setuptools._distutils.file_util', 'setuptools._distutils.filelist', 'setuptools._distutils.log', 'setuptools._distutils.spawn', 'setuptools._distutils.sysconfig', 'setuptools._distutils.text_file', 'setuptools._distutils.unixccompiler', 'setuptools._distutils.util', 'setuptools._distutils.version', 'setuptools._distutils.versionpredicate', 'setuptools._distutils.zosccompiler']
+2591 DEBUG: Collecting submodules for setuptools._vendor
+2591 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor
+2591 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor in location(s): _NamespacePath(['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor'])
+2593 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.zipp
+2595 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.zipp in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\zipp']
+2595 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.zipp.compat
+2595 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.zipp.compat in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat']
+2595 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.wheel
+2596 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.wheel in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel']
+2596 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.wheel.vendored
+2597 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.wheel.vendored in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored']
+2597 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.wheel.vendored.packaging
+2598 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.wheel.vendored.packaging in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging']
+2598 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.wheel.cli
+2599 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.wheel.cli in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli']
+2599 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.typeguard
+2631 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.typeguard in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typeguard']
+2631 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.tomli
+2633 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.tomli in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\tomli']
+2634 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.platformdirs
+2635 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.platformdirs in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs']
+2635 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.packaging
+2636 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.packaging in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging']
+2636 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.packaging.licenses
+2637 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.packaging.licenses in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\licenses']
+2637 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.more_itertools
+2639 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.more_itertools in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools']
+2640 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.inflect
+4810 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.inflect in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\inflect']
+4810 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.inflect.compat
+4810 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.inflect.compat in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\inflect\\compat']
+4811 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.importlib_metadata
+4815 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.importlib_metadata in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata']
+4815 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.importlib_metadata.compat
+4815 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.importlib_metadata.compat in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat']
+4816 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.backports
+4816 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.backports in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports']
+4816 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.backports.tarfile
+4819 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.backports.tarfile in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile']
+4820 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.backports.tarfile.compat
+4820 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.backports.tarfile.compat in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat']
+4820 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.autocommand
+4822 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.autocommand in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\autocommand']
+4822 DEBUG: collect_submodules - found submodules: ['setuptools._vendor', 'setuptools._vendor.autocommand', 'setuptools._vendor.autocommand.autoasync', 'setuptools._vendor.autocommand.autocommand', 'setuptools._vendor.autocommand.automain', 'setuptools._vendor.autocommand.autoparse', 'setuptools._vendor.autocommand.errors', 'setuptools._vendor.backports', 'setuptools._vendor.backports.tarfile', 'setuptools._vendor.backports.tarfile.__main__', 'setuptools._vendor.backports.tarfile.compat', 'setuptools._vendor.backports.tarfile.compat.py38', 'setuptools._vendor.importlib_metadata', 'setuptools._vendor.importlib_metadata._adapters', 'setuptools._vendor.importlib_metadata._collections', 'setuptools._vendor.importlib_metadata._compat', 'setuptools._vendor.importlib_metadata._functools', 'setuptools._vendor.importlib_metadata._itertools', 'setuptools._vendor.importlib_metadata._meta', 'setuptools._vendor.importlib_metadata._text', 'setuptools._vendor.importlib_metadata.compat', 'setuptools._vendor.importlib_metadata.compat.py311', 'setuptools._vendor.importlib_metadata.compat.py39', 'setuptools._vendor.importlib_metadata.diagnose', 'setuptools._vendor.inflect', 'setuptools._vendor.inflect.compat', 'setuptools._vendor.inflect.compat.py38', 'setuptools._vendor.more_itertools', 'setuptools._vendor.more_itertools.more', 'setuptools._vendor.more_itertools.recipes', 'setuptools._vendor.packaging', 'setuptools._vendor.packaging._elffile', 'setuptools._vendor.packaging._manylinux', 'setuptools._vendor.packaging._musllinux', 'setuptools._vendor.packaging._parser', 'setuptools._vendor.packaging._structures', 'setuptools._vendor.packaging._tokenizer', 'setuptools._vendor.packaging.licenses', 'setuptools._vendor.packaging.licenses._spdx', 'setuptools._vendor.packaging.markers', 'setuptools._vendor.packaging.metadata', 'setuptools._vendor.packaging.requirements', 'setuptools._vendor.packaging.specifiers', 'setuptools._vendor.packaging.tags', 'setuptools._vendor.packaging.utils', 'setuptools._vendor.packaging.version', 'setuptools._vendor.platformdirs', 'setuptools._vendor.platformdirs.__main__', 'setuptools._vendor.platformdirs.android', 'setuptools._vendor.platformdirs.api', 'setuptools._vendor.platformdirs.macos', 'setuptools._vendor.platformdirs.unix', 'setuptools._vendor.platformdirs.version', 'setuptools._vendor.platformdirs.windows', 'setuptools._vendor.tomli', 'setuptools._vendor.tomli._parser', 'setuptools._vendor.tomli._re', 'setuptools._vendor.tomli._types', 'setuptools._vendor.typeguard', 'setuptools._vendor.typeguard._checkers', 'setuptools._vendor.typeguard._config', 'setuptools._vendor.typeguard._decorators', 'setuptools._vendor.typeguard._exceptions', 'setuptools._vendor.typeguard._functions', 'setuptools._vendor.typeguard._importhook', 'setuptools._vendor.typeguard._memo', 'setuptools._vendor.typeguard._pytest_plugin', 'setuptools._vendor.typeguard._suppression', 'setuptools._vendor.typeguard._transformer', 'setuptools._vendor.typeguard._union_transformer', 'setuptools._vendor.typeguard._utils', 'setuptools._vendor.typing_extensions', 'setuptools._vendor.wheel', 'setuptools._vendor.wheel.__main__', 'setuptools._vendor.wheel._bdist_wheel', 'setuptools._vendor.wheel._setuptools_logging', 'setuptools._vendor.wheel.bdist_wheel', 'setuptools._vendor.wheel.cli', 'setuptools._vendor.wheel.cli.convert', 'setuptools._vendor.wheel.cli.pack', 'setuptools._vendor.wheel.cli.tags', 'setuptools._vendor.wheel.cli.unpack', 'setuptools._vendor.wheel.macosx_libfile', 'setuptools._vendor.wheel.metadata', 'setuptools._vendor.wheel.util', 'setuptools._vendor.wheel.vendored', 'setuptools._vendor.wheel.vendored.packaging', 'setuptools._vendor.wheel.vendored.packaging._elffile', 'setuptools._vendor.wheel.vendored.packaging._manylinux', 'setuptools._vendor.wheel.vendored.packaging._musllinux', 'setuptools._vendor.wheel.vendored.packaging._parser', 'setuptools._vendor.wheel.vendored.packaging._structures', 'setuptools._vendor.wheel.vendored.packaging._tokenizer', 'setuptools._vendor.wheel.vendored.packaging.markers', 'setuptools._vendor.wheel.vendored.packaging.requirements', 'setuptools._vendor.wheel.vendored.packaging.specifiers', 'setuptools._vendor.wheel.vendored.packaging.tags', 'setuptools._vendor.wheel.vendored.packaging.utils', 'setuptools._vendor.wheel.vendored.packaging.version', 'setuptools._vendor.wheel.wheelfile', 'setuptools._vendor.zipp', 'setuptools._vendor.zipp.compat', 'setuptools._vendor.zipp.compat.py310', 'setuptools._vendor.zipp.glob']
+4823 DEBUG: Collecting submodules for setuptools._vendor.jaraco
+4823 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.jaraco
+4823 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.jaraco in location(s): _NamespacePath(['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco'])
+4824 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.jaraco.text
+4825 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.jaraco.text in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text']
+4825 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.jaraco.functools
+4826 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.jaraco.functools in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools']
+4826 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.jaraco.collections
+4828 DEBUG: collect_submodules - scanning (sub)package setuptools._vendor.jaraco.collections in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\collections']
+4828 DEBUG: collect_submodules - found submodules: ['setuptools._vendor.jaraco', 'setuptools._vendor.jaraco.collections', 'setuptools._vendor.jaraco.context', 'setuptools._vendor.jaraco.functools', 'setuptools._vendor.jaraco.text', 'setuptools._vendor.jaraco.text.layouts']
+4828 DEBUG: Collecting data files for setuptools._vendor
+4915 DEBUG: collect_data_files - Found files: [('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\entry_points.txt', 'setuptools\\_vendor\\wheel-0.45.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\INSTALLER', 'setuptools\\_vendor\\platformdirs-4.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE', 'setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\WHEEL', 'setuptools\\_vendor\\platformdirs-4.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\REQUESTED', 'setuptools\\_vendor\\platformdirs-4.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\WHEEL', 'setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\INSTALLER', 'setuptools\\_vendor\\wheel-0.45.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\INSTALLER', 'setuptools\\_vendor\\zipp-3.19.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA', 'setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\INSTALLER', 'setuptools\\_vendor\\autocommand-2.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\top_level.txt', 'setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\METADATA', 'setuptools\\_vendor\\jaraco.context-5.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\LICENSE', 'setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\WHEEL', 'setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\entry_points.txt', 'setuptools\\_vendor\\typeguard-4.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\METADATA', 'setuptools\\_vendor\\jaraco.text-3.12.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\RECORD', 'setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\INSTALLER', 'setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\RECORD', 'setuptools\\_vendor\\tomli-2.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\LICENSE', 'setuptools\\_vendor\\autocommand-2.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\METADATA', 'setuptools\\_vendor\\wheel-0.45.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\LICENSE', 'setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\top_level.txt', 'setuptools\\_vendor\\autocommand-2.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\REQUESTED', 'setuptools\\_vendor\\zipp-3.19.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\INSTALLER', 'setuptools\\_vendor\\tomli-2.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED', 'setuptools\\_vendor\\wheel-0.45.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\REQUESTED', 'setuptools\\_vendor\\tomli-2.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\RECORD', 'setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\LICENSE', 'setuptools\\_vendor\\typeguard-4.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\LICENSE.APACHE', 'setuptools\\_vendor\\packaging-24.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\METADATA', 'setuptools\\_vendor\\autocommand-2.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\INSTALLER', 'setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\RECORD', 'setuptools\\_vendor\\platformdirs-4.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\top_level.txt', 'setuptools\\_vendor\\jaraco.context-5.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\METADATA', 'setuptools\\_vendor\\more_itertools-10.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\top_level.txt', 'setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\METADATA', 'setuptools\\_vendor\\packaging-24.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\METADATA', 'setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\top_level.txt', 'setuptools\\_vendor\\jaraco.text-3.12.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\LICENSE', 'setuptools\\_vendor\\zipp-3.19.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\WHEEL', 'setuptools\\_vendor\\typeguard-4.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\WHEEL', 'setuptools\\_vendor\\packaging-24.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\METADATA', 'setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt', 'setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\LICENSE', 'setuptools\\_vendor\\packaging-24.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\METADATA', 'setuptools\\_vendor\\platformdirs-4.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\INSTALLER', 'setuptools\\_vendor\\typeguard-4.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\WHEEL', 'setuptools\\_vendor\\zipp-3.19.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\RECORD', 'setuptools\\_vendor\\typeguard-4.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\LICENSE', 'setuptools\\_vendor\\typing_extensions-4.12.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\RECORD', 'setuptools\\_vendor\\more_itertools-10.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\REQUESTED', 'setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\top_level.txt', 'setuptools\\_vendor\\typeguard-4.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD', 'setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\LICENSE.BSD', 'setuptools\\_vendor\\packaging-24.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\RECORD', 'setuptools\\_vendor\\jaraco.context-5.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\REQUESTED', 'setuptools\\_vendor\\jaraco.text-3.12.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\RECORD', 'setuptools\\_vendor\\inflect-7.3.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\RECORD', 'setuptools\\_vendor\\zipp-3.19.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt', 'setuptools\\_vendor\\wheel-0.45.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER', 'setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\LICENSE', 'setuptools\\_vendor\\jaraco.text-3.12.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\WHEEL', 'setuptools\\_vendor\\more_itertools-10.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\top_level.txt', 'setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\INSTALLER', 'setuptools\\_vendor\\jaraco.text-3.12.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\LICENSE', 'setuptools\\_vendor\\inflect-7.3.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL', 'setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\INSTALLER', 'setuptools\\_vendor\\jaraco.context-5.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\RECORD', 'setuptools\\_vendor\\typing_extensions-4.12.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\METADATA', 'setuptools\\_vendor\\zipp-3.19.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\LICENSE', 'setuptools\\_vendor\\tomli-2.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\INSTALLER', 'setuptools\\_vendor\\inflect-7.3.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\INSTALLER', 'setuptools\\_vendor\\typing_extensions-4.12.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\METADATA', 'setuptools\\_vendor\\tomli-2.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\RECORD', 'setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\INSTALLER', 'setuptools\\_vendor\\packaging-24.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\METADATA', 'setuptools\\_vendor\\typing_extensions-4.12.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\RECORD', 'setuptools\\_vendor\\jaraco.text-3.12.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\REQUESTED', 'setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\METADATA', 'setuptools\\_vendor\\inflect-7.3.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\LICENSE', 'setuptools\\_vendor\\jaraco.context-5.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\RECORD', 'setuptools\\_vendor\\autocommand-2.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\RECORD', 'setuptools\\_vendor\\packaging-24.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\INSTALLER', 'setuptools\\_vendor\\more_itertools-10.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\zipp-3.19.2.dist-info\\top_level.txt', 'setuptools\\_vendor\\zipp-3.19.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\METADATA', 'setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.text-3.12.1.dist-info\\WHEEL', 'setuptools\\_vendor\\jaraco.text-3.12.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\LICENSE', 'setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\licenses\\LICENSE', 'setuptools\\_vendor\\platformdirs-4.2.2.dist-info\\licenses'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD', 'setuptools\\_vendor\\wheel-0.45.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED', 'setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info\\INSTALLER', 'setuptools\\_vendor\\jaraco.functools-4.0.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\WHEEL', 'setuptools\\_vendor\\autocommand-2.2.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\top_level.txt', 'setuptools\\_vendor\\inflect-7.3.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\WHEEL', 'setuptools\\_vendor\\wheel-0.45.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\REQUESTED', 'setuptools\\_vendor\\more_itertools-10.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.context-5.3.0.dist-info\\WHEEL', 'setuptools\\_vendor\\jaraco.context-5.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typeguard-4.3.0.dist-info\\METADATA', 'setuptools\\_vendor\\typeguard-4.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools-10.3.0.dist-info\\LICENSE', 'setuptools\\_vendor\\more_itertools-10.3.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info\\WHEEL', 'setuptools\\_vendor\\jaraco.collections-5.1.0.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\packaging-24.2.dist-info\\REQUESTED', 'setuptools\\_vendor\\packaging-24.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions-4.12.2.dist-info\\WHEEL', 'setuptools\\_vendor\\typing_extensions-4.12.2.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\inflect-7.3.1.dist-info\\WHEEL', 'setuptools\\_vendor\\inflect-7.3.1.dist-info'), ('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\tomli-2.0.1.dist-info\\WHEEL', 'setuptools\\_vendor\\tomli-2.0.1.dist-info')]
+4915 DEBUG: Collecting data files for setuptools._vendor.jaraco.text
+4918 DEBUG: collect_data_files - Found files: [('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt', 'setuptools\\_vendor\\jaraco\\text')]
+13977 INFO: Processing standard module hook 'hook-importlib_metadata.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+14009 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+14037 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+14078 INFO: Processing standard module hook 'hook-win32ctypes.core.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+14078 DEBUG: Collecting submodules for win32ctypes.core.ctypes
+289 DEBUG: collect_submodules - scanning (sub)package win32ctypes.core.ctypes
+289 DEBUG: collect_submodules - scanning (sub)package win32ctypes.core.ctypes in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32ctypes\\core\\ctypes']
+14691 DEBUG: collect_submodules - found submodules: ['win32ctypes.core.ctypes', 'win32ctypes.core.ctypes._authentication', 'win32ctypes.core.ctypes._common', 'win32ctypes.core.ctypes._dll', 'win32ctypes.core.ctypes._nl_support', 'win32ctypes.core.ctypes._resource', 'win32ctypes.core.ctypes._system_information', 'win32ctypes.core.ctypes._time', 'win32ctypes.core.ctypes._util']
+14775 DEBUG: Collecting submodules for win32ctypes.core.cffi
+244 DEBUG: collect_submodules - scanning (sub)package win32ctypes.core.cffi
+245 DEBUG: Loaded cffi backend
+245 DEBUG: collect_submodules - scanning (sub)package win32ctypes.core.cffi in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32ctypes\\core\\cffi']
+15369 DEBUG: collect_submodules - found submodules: ['win32ctypes.core.cffi', 'win32ctypes.core.cffi._authentication', 'win32ctypes.core.cffi._common', 'win32ctypes.core.cffi._dll', 'win32ctypes.core.cffi._nl_support', 'win32ctypes.core.cffi._resource', 'win32ctypes.core.cffi._system_information', 'win32ctypes.core.cffi._time', 'win32ctypes.core.cffi._util']
+15600 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+16196 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+16213 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16254 INFO: Processing pre-safe-import-module hook 'hook-jaraco.functools.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16269 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16579 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+17235 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+17236 DEBUG: Suppressing import of 'test' from module 'multiprocessing.util' due to excluded import 'test' specified in a hook for 'multiprocessing.util' (or its parent package(s)).
+17365 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+19275 INFO: Processing pre-safe-import-module hook 'hook-jaraco.text.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+19290 INFO: Processing standard module hook 'hook-jaraco.text.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+19291 DEBUG: Collecting data files for jaraco.text
+19419 DEBUG: collect_data_files - Found files: [('C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jaraco\\text\\Lorem ipsum.txt', 'jaraco\\text')]
+19420 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+19421 INFO: Processing pre-safe-import-module hook 'hook-jaraco.context.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+19736 INFO: Processing pre-safe-import-module hook 'hook-backports.tarfile.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+19880 INFO: Processing standard module hook 'hook-backports.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+20558 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+21332 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+21819 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+21819 DEBUG: Suppressing import of 'doctest' from module 'difflib' due to excluded import 'doctest' specified in a hook for 'difflib' (or its parent package(s)).
+23695 INFO: Processing standard module hook 'hook-pkg_resources.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+23695 DEBUG: Collecting submodules for packaging
+252 DEBUG: collect_submodules - scanning (sub)package packaging
+252 DEBUG: collect_submodules - scanning (sub)package packaging in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\packaging']
+253 DEBUG: collect_submodules - scanning (sub)package packaging.licenses
+255 DEBUG: collect_submodules - scanning (sub)package packaging.licenses in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\packaging\\licenses']
+24132 DEBUG: collect_submodules - found submodules: ['packaging', 'packaging._elffile', 'packaging._manylinux', 'packaging._musllinux', 'packaging._parser', 'packaging._structures', 'packaging._tokenizer', 'packaging.licenses', 'packaging.licenses._spdx', 'packaging.markers', 'packaging.metadata', 'packaging.requirements', 'packaging.specifiers', 'packaging.tags', 'packaging.utils', 'packaging.version']
+24135 INFO: Processing pre-safe-import-module hook 'hook-platformdirs.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+24148 INFO: Processing standard module hook 'hook-platformdirs.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+24199 DEBUG: Suppressing import of '__main__' from module 'pkg_resources' due to excluded import '__main__' specified in a hook for 'pkg_resources' (or its parent package(s)).
+24294 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+24294 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+24616 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+24627 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+24792 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+24792 DEBUG: Collecting submodules for PIL
+251 DEBUG: collect_submodules - scanning (sub)package PIL
+252 DEBUG: collect_submodules - scanning (sub)package PIL in location(s): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL']
+25225 DEBUG: collect_submodules - found submodules: ['PIL.AvifImagePlugin', 'PIL.BlpImagePlugin', 'PIL.BmpImagePlugin', 'PIL.BufrStubImagePlugin', 'PIL.CurImagePlugin', 'PIL.DcxImagePlugin', 'PIL.DdsImagePlugin', 'PIL.EpsImagePlugin', 'PIL.FitsImagePlugin', 'PIL.FliImagePlugin', 'PIL.FpxImagePlugin', 'PIL.FtexImagePlugin', 'PIL.GbrImagePlugin', 'PIL.GifImagePlugin', 'PIL.GribStubImagePlugin', 'PIL.Hdf5StubImagePlugin', 'PIL.IcnsImagePlugin', 'PIL.IcoImagePlugin', 'PIL.ImImagePlugin', 'PIL.ImtImagePlugin', 'PIL.IptcImagePlugin', 'PIL.Jpeg2KImagePlugin', 'PIL.JpegImagePlugin', 'PIL.McIdasImagePlugin', 'PIL.MicImagePlugin', 'PIL.MpegImagePlugin', 'PIL.MpoImagePlugin', 'PIL.MspImagePlugin', 'PIL.PalmImagePlugin', 'PIL.PcdImagePlugin', 'PIL.PcxImagePlugin', 'PIL.PdfImagePlugin', 'PIL.PixarImagePlugin', 'PIL.PngImagePlugin', 'PIL.PpmImagePlugin', 'PIL.PsdImagePlugin', 'PIL.QoiImagePlugin', 'PIL.SgiImagePlugin', 'PIL.SpiderImagePlugin', 'PIL.SunImagePlugin', 'PIL.TgaImagePlugin', 'PIL.TiffImagePlugin', 'PIL.WebPImagePlugin', 'PIL.WmfImagePlugin', 'PIL.XVThumbImagePlugin', 'PIL.XbmImagePlugin', 'PIL.XpmImagePlugin']
+25299 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+25304 DEBUG: Collecting dynamic libraries for numpy
+26347 DEBUG: Suppressing import of 'pytest' from module 'numpy._pytesttester' due to excluded import 'pytest' specified in a hook for 'numpy._pytesttester' (or its parent package(s)).
+26347 DEBUG: Suppressing import of 'numpy.distutils' from module 'numpy._pytesttester' due to excluded import 'numpy.distutils' specified in a hook for 'numpy._pytesttester' (or its parent package(s)).
+26448 DEBUG: Suppressing import of 'numpy.distutils.misc_util' from module 'numpy.testing._private.utils' due to excluded import 'numpy.distutils' specified in a hook for 'numpy.testing._private.utils' (or its parent package(s)).
+26788 DEBUG: Suppressing import of 'pytest' from module 'numpy.testing._private.utils' due to excluded import 'pytest' specified in a hook for 'numpy.testing._private.utils' (or its parent package(s)).
+26860 INFO: Processing standard module hook 'hook-psutil.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+26899 DEBUG: Suppressing import of 'curses' from module 'psutil._common' due to excluded import 'curses' specified in a hook for 'psutil._common' (or its parent package(s)).
+26902 DEBUG: Suppressing import of 'psutil._pslinux' from module 'psutil' due to excluded import 'psutil._pslinux' specified in a hook for 'psutil' (or its parent package(s)).
+26902 DEBUG: Suppressing import of 'psutil._pslinux' from module 'psutil' due to excluded import 'psutil._pslinux' specified in a hook for 'psutil' (or its parent package(s)).
+26902 DEBUG: Suppressing import of 'psutil._pslinux' from module 'psutil' due to excluded import 'psutil._pslinux' specified in a hook for 'psutil' (or its parent package(s)).
+26902 DEBUG: Suppressing import of 'psutil._pslinux' from module 'psutil' due to excluded import 'psutil._pslinux' specified in a hook for 'psutil' (or its parent package(s)).
+26902 DEBUG: Suppressing import of 'psutil._pslinux' from module 'psutil' due to excluded import 'psutil._pslinux' specified in a hook for 'psutil' (or its parent package(s)).
+26951 DEBUG: Suppressing import of 'psutil._psosx' from module 'psutil' due to excluded import 'psutil._psosx' specified in a hook for 'psutil' (or its parent package(s)).
+26951 DEBUG: Suppressing import of 'psutil._psbsd' from module 'psutil' due to excluded import 'psutil._psbsd' specified in a hook for 'psutil' (or its parent package(s)).
+26951 DEBUG: Suppressing import of 'psutil._pssunos' from module 'psutil' due to excluded import 'psutil._pssunos' specified in a hook for 'psutil' (or its parent package(s)).
+26951 DEBUG: Suppressing import of 'psutil._pssunos' from module 'psutil' due to excluded import 'psutil._pssunos' specified in a hook for 'psutil' (or its parent package(s)).
+26951 DEBUG: Suppressing import of 'psutil._pssunos' from module 'psutil' due to excluded import 'psutil._pssunos' specified in a hook for 'psutil' (or its parent package(s)).
+26951 DEBUG: Suppressing import of 'psutil._psaix' from module 'psutil' due to excluded import 'psutil._psaix' specified in a hook for 'psutil' (or its parent package(s)).
+28419 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+28969 DEBUG: Suppressing import of 'numpy.distutils.core' from module 'numpy.f2py._backends._distutils' due to excluded import 'numpy.distutils' specified in a hook for 'numpy.f2py._backends._distutils' (or its parent package(s)).
+28969 DEBUG: Suppressing import of 'numpy.distutils.system_info' from module 'numpy.f2py._backends._distutils' due to excluded import 'numpy.distutils' specified in a hook for 'numpy.f2py._backends._distutils' (or its parent package(s)).
+28969 DEBUG: Suppressing import of 'numpy.distutils.misc_util' from module 'numpy.f2py._backends._distutils' due to excluded import 'numpy.distutils' specified in a hook for 'numpy.f2py._backends._distutils' (or its parent package(s)).
+28970 DEBUG: Suppressing import of 'numpy.distutils' from module 'numpy.f2py.f2py2e' due to excluded import 'numpy.distutils' specified in a hook for 'numpy.f2py.f2py2e' (or its parent package(s)).
+28970 DEBUG: Suppressing import of 'numpy.distutils.system_info' from module 'numpy.f2py.f2py2e' due to excluded import 'numpy.distutils' specified in a hook for 'numpy.f2py.f2py2e' (or its parent package(s)).
+28980 DEBUG: Suppressing import of 'numpy.distutils' from module 'numpy.f2py.diagnose' due to excluded import 'numpy.distutils' specified in a hook for 'numpy.f2py.diagnose' (or its parent package(s)).
+28980 DEBUG: Suppressing import of 'numpy.distutils.fcompiler' from module 'numpy.f2py.diagnose' due to excluded import 'numpy.distutils' specified in a hook for 'numpy.f2py.diagnose' (or its parent package(s)).
+28980 DEBUG: Suppressing import of 'numpy.distutils.cpuinfo' from module 'numpy.f2py.diagnose' due to excluded import 'numpy.distutils' specified in a hook for 'numpy.f2py.diagnose' (or its parent package(s)).
+29030 DEBUG: Suppressing import of 'numpy.distutils' from module 'numpy' due to excluded import 'numpy.distutils' specified in a hook for 'numpy' (or its parent package(s)).
+29045 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+29175 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+29478 DEBUG: Suppressing import of 'IPython.lib.pretty' from module 'PIL.Image' due to excluded import 'IPython' specified in a hook for 'PIL.Image' (or its parent package(s)).
+29758 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+29759 DEBUG: Suppressing import of 'numpy' from module 'PIL.ImageFilter' due to excluded import 'numpy' specified in a hook for 'PIL.ImageFilter' (or its parent package(s)).
+29769 DEBUG: Suppressing import of 'PyQt6.QtCore' from module 'PIL.ImageQt' due to excluded import 'PyQt6' specified in a hook for 'PIL.ImageQt' (or its parent package(s)).
+29769 DEBUG: Suppressing import of 'PyQt6.QtGui' from module 'PIL.ImageQt' due to excluded import 'PyQt6' specified in a hook for 'PIL.ImageQt' (or its parent package(s)).
+29770 DEBUG: Suppressing import of 'PySide6.QtCore' from module 'PIL.ImageQt' due to excluded import 'PySide6' specified in a hook for 'PIL.ImageQt' (or its parent package(s)).
+29770 DEBUG: Suppressing import of 'PySide6.QtGui' from module 'PIL.ImageQt' due to excluded import 'PySide6' specified in a hook for 'PIL.ImageQt' (or its parent package(s)).
+30125 DEBUG: Suppressing import of 'IPython.display' from module 'PIL.ImageShow' due to excluded import 'IPython' specified in a hook for 'PIL.ImageShow' (or its parent package(s)).
+30291 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+30303 INFO: Processing module hooks (post-graph stage)...
+30314 DEBUG: Suppressing import of 'docutils.frontend' from module 'setuptools._distutils.command.check' due to excluded import 'docutils' specified in a hook for 'setuptools._distutils.command.check' (or its parent package(s)).
+30314 DEBUG: Suppressing import of 'docutils.nodes' from module 'setuptools._distutils.command.check' due to excluded import 'docutils' specified in a hook for 'setuptools._distutils.command.check' (or its parent package(s)).
+30314 DEBUG: Suppressing import of 'docutils.parsers.rst' from module 'setuptools._distutils.command.check' due to excluded import 'docutils' specified in a hook for 'setuptools._distutils.command.check' (or its parent package(s)).
+30314 DEBUG: Suppressing import of 'docutils.utils' from module 'setuptools._distutils.command.check' due to excluded import 'docutils' specified in a hook for 'setuptools._distutils.command.check' (or its parent package(s)).
+30747 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+30756 DEBUG: Suppressing import of 'tkinter' from module 'PIL.ImageTk' due to excluded import 'tkinter' specified in a hook for 'PIL.ImageTk' (or its parent package(s)).
+30945 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+30966 INFO: Performing binary vs. data reclassification (937 entries)
+31321 INFO: Looking for ctypes DLLs
+31321 DEBUG: Scanning _ios_support for ctypes-based references to shared libraries
+31323 DEBUG: Scanning platform for ctypes-based references to shared libraries
+31330 DEBUG: Scanning webbrowser for ctypes-based references to shared libraries
+31335 DEBUG: Scanning _pyrepl._minimal_curses for ctypes-based references to shared libraries
+31336 DEBUG: Scanning _pyrepl.windows_console for ctypes-based references to shared libraries
+31341 DEBUG: Scanning multiprocessing.sharedctypes for ctypes-based references to shared libraries
+31343 DEBUG: Scanning packaging._manylinux for ctypes-based references to shared libraries
+31345 DEBUG: Scanning setuptools._vendor.packaging._manylinux for ctypes-based references to shared libraries
+31347 DEBUG: Scanning setuptools.windows_support for ctypes-based references to shared libraries
+31347 DEBUG: Scanning wheel.vendored.packaging._manylinux for ctypes-based references to shared libraries
+31349 DEBUG: Scanning wheel.macosx_libfile for ctypes-based references to shared libraries
+31352 DEBUG: Scanning win32ctypes.pywin32.win32cred for ctypes-based references to shared libraries
+31353 DEBUG: Scanning PyInstaller.utils.win32.winutils for ctypes-based references to shared libraries
+31355 DEBUG: Scanning platformdirs.windows for ctypes-based references to shared libraries
+31357 DEBUG: Scanning PyInstaller.isolated._parent for ctypes-based references to shared libraries
+31360 DEBUG: Scanning psutil._common for ctypes-based references to shared libraries
+31365 DEBUG: Scanning numpy._core._dtype_ctypes for ctypes-based references to shared libraries
+31366 DEBUG: Scanning numpy._core._internal for ctypes-based references to shared libraries
+31372 DEBUG: Scanning numpy.ctypeslib for ctypes-based references to shared libraries
+31375 DEBUG: Scanning PyInstaller.__main__ for ctypes-based references to shared libraries
+31378 DEBUG: Scanning win32ctypes.core.ctypes._authentication for ctypes-based references to shared libraries
+31379 DEBUG: Scanning win32ctypes.core.ctypes._common for ctypes-based references to shared libraries
+31379 DEBUG: Scanning win32ctypes.core.ctypes._util for ctypes-based references to shared libraries
+31380 DEBUG: Scanning win32ctypes.core.ctypes._resource for ctypes-based references to shared libraries
+31381 DEBUG: Scanning win32ctypes.core.ctypes._system_information for ctypes-based references to shared libraries
+31416 INFO: Analyzing run-time hooks ...
+31420 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+31425 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+31429 INFO: Including run-time hook 'pyi_rth_pkgres.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+31436 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+31440 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+31444 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+31494 DEBUG: Module collection settings: {}
+31494 DEBUG: Target optimization level 0 matches run-time optimization level 0 - using modulegraph's code-object cache.
+31501 INFO: Creating base_library.zip...
+31531 INFO: Looking for dynamic libraries
+C:\Users\Spa\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\building\build_main.py:227: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__(package)
+673 DEBUG: Loaded cffi backend
+32418 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs']
+32418 INFO: Extra DLL search directories (PATH): []
+32420 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32444 DEBUG: Processing dependency, name: 'api-ms-win-crt-conio-l1-1-0.dll', resolved path: None
+32444 DEBUG: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+32444 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+32444 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32444 DEBUG: Processing dependency, name: 'VERSION.dll', resolved path: 'C:\\WINDOWS\\system32\\VERSION.dll'
+32444 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\VERSION.dll' due to global exclusion rules.
+32444 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+32444 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+32444 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+32444 DEBUG: Processing dependency, name: 'bcrypt.dll', resolved path: 'C:\\WINDOWS\\system32\\bcrypt.dll'
+32445 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\bcrypt.dll' due to global exclusion rules.
+32445 DEBUG: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'api-ms-win-crt-process-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'api-ms-win-crt-locale-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'api-ms-win-core-path-l1-1-0.dll', resolved path: None
+32445 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32445 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32445 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32445 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' as 'VCRUNTIME140.dll'.
+32445 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll'
+32490 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-conio-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-locale-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-private-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32491 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32491 DEBUG: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+32491 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll'
+32504 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+32504 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32504 DEBUG: Processing dependency, name: 'api-ms-win-crt-locale-l1-1-0.dll', resolved path: None
+32504 DEBUG: Processing dependency, name: 'VCRUNTIME140_1.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll'
+32505 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll' as 'VCRUNTIME140_1.dll'.
+32505 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32505 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32505 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32505 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32505 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32505 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32505 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32505 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32505 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32505 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32505 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32505 DEBUG: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+32505 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd'
+32513 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32513 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' as 'python313.dll'.
+32513 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32513 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32513 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32514 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32514 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32514 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32514 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32514 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd'
+32519 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32520 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32520 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32520 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32520 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32520 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32520 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32520 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32520 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd'
+32525 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32525 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32525 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32526 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32526 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32526 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32526 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32526 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32526 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32526 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd'
+32534 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32534 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32534 DEBUG: Processing dependency, name: 'api-ms-win-crt-locale-l1-1-0.dll', resolved path: None
+32534 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32534 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32534 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32534 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32534 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32534 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32534 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32534 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32535 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32535 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32535 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd'
+32540 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32541 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32541 DEBUG: Processing dependency, name: 'libcrypto-3.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll'
+32541 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll' as 'libcrypto-3.dll'.
+32541 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32541 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32541 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32541 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32541 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32541 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32542 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd'
+32547 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32548 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32548 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+32548 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+32548 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32548 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32548 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32548 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32548 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32548 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd'
+32556 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32557 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32557 DEBUG: Processing dependency, name: 'RPCRT4.dll', resolved path: 'C:\\WINDOWS\\system32\\RPCRT4.dll'
+32557 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\RPCRT4.dll' due to global exclusion rules.
+32557 DEBUG: Processing dependency, name: 'IPHLPAPI.DLL', resolved path: 'C:\\WINDOWS\\system32\\IPHLPAPI.DLL'
+32557 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\IPHLPAPI.DLL' due to global exclusion rules.
+32557 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+32557 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+32557 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32557 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32557 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32558 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32558 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32558 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32558 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32558 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd'
+32564 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32565 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32565 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+32565 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+32565 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32565 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32565 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32565 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32565 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32565 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32565 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd'
+32574 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32574 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32574 DEBUG: Processing dependency, name: 'libcrypto-3.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll'
+32575 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll' due to prior processing.
+32575 DEBUG: Processing dependency, name: 'CRYPT32.dll', resolved path: 'C:\\WINDOWS\\system32\\CRYPT32.dll'
+32575 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\CRYPT32.dll' due to global exclusion rules.
+32575 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+32575 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+32575 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32575 DEBUG: Processing dependency, name: 'libssl-3.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll'
+32575 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll' as 'libssl-3.dll'.
+32575 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32575 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32576 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32576 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32576 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32576 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32576 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd'
+32580 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32580 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32580 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32580 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32581 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32581 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32581 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32581 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd'
+32589 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32590 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32590 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32590 DEBUG: Processing dependency, name: 'OLEAUT32.dll', resolved path: 'C:\\WINDOWS\\system32\\OLEAUT32.dll'
+32590 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\OLEAUT32.dll' due to global exclusion rules.
+32590 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32590 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32590 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32590 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32590 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32590 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32590 DEBUG: Processing dependency, name: 'ole32.dll', resolved path: 'C:\\WINDOWS\\system32\\ole32.dll'
+32590 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\ole32.dll' due to global exclusion rules.
+32590 DEBUG: Processing dependency, name: 'libffi-8.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll'
+32591 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll' as 'libffi-8.dll'.
+32591 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd'
+32596 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32596 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32596 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+32596 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+32596 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32596 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32596 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32596 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32597 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32597 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd'
+32603 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+32603 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32603 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32604 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32604 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32604 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32604 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32604 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32604 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32604 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32604 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32604 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32604 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd'
+32608 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32608 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32609 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32609 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32609 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32609 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32609 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32609 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd'
+32616 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32617 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32617 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32617 DEBUG: Processing dependency, name: 'VCRUNTIME140_1.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll'
+32617 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll' due to prior processing.
+32617 DEBUG: Processing dependency, name: 'PROPSYS.dll', resolved path: 'C:\\WINDOWS\\system32\\PROPSYS.dll'
+32617 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\PROPSYS.dll' due to global exclusion rules.
+32617 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32617 DEBUG: Processing dependency, name: 'OLEAUT32.dll', resolved path: 'C:\\WINDOWS\\system32\\OLEAUT32.dll'
+32617 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\OLEAUT32.dll' due to global exclusion rules.
+32617 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32618 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32618 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32618 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32618 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32618 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\tomli\\__init__.cp313-win_amd64.pyd'
+32623 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32623 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32623 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32623 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32623 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32623 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32623 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32623 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\tomli\\_parser.cp313-win_amd64.pyd'
+32627 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32627 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32628 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32628 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32628 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32628 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32628 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32628 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\tomli\\_types.cp313-win_amd64.pyd'
+32632 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32632 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32632 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32632 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32633 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32633 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32633 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32633 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\tomli\\_re.cp313-win_amd64.pyd'
+32637 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32637 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32637 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32637 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32637 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32637 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32637 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32638 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_uuid.pyd'
+32642 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32643 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32643 DEBUG: Processing dependency, name: 'RPCRT4.dll', resolved path: 'C:\\WINDOWS\\system32\\RPCRT4.dll'
+32643 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\RPCRT4.dll' due to global exclusion rules.
+32643 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32643 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32643 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32643 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32643 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32643 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_webp.cp313-win_amd64.pyd'
+32649 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32649 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32649 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32649 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32649 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32649 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32649 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32649 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32649 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32649 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32650 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32650 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingtk.cp313-win_amd64.pyd'
+32656 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32656 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32656 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32656 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32656 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32656 DEBUG: Processing dependency, name: 'PSAPI.DLL', resolved path: 'C:\\WINDOWS\\system32\\PSAPI.DLL'
+32657 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\PSAPI.DLL' due to global exclusion rules.
+32657 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32657 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32657 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32657 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32657 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32657 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32657 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_avif.cp313-win_amd64.pyd'
+32667 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32668 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32668 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32668 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32668 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32668 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32668 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32668 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32668 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32668 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32668 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32668 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32668 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32669 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32669 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingcms.cp313-win_amd64.pyd'
+32676 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32676 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32677 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32677 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32677 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32677 DEBUG: Processing dependency, name: 'GDI32.dll', resolved path: 'C:\\WINDOWS\\system32\\GDI32.dll'
+32677 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\GDI32.dll' due to global exclusion rules.
+32677 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32677 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32677 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32677 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32677 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32677 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32677 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32677 DEBUG: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+32677 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+32677 DEBUG: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+32677 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingmath.cp313-win_amd64.pyd'
+32681 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32682 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32682 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32682 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32682 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32682 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32682 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32682 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32682 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\_multiarray_tests.cp313-win_amd64.pyd'
+32687 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32688 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32688 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32688 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32688 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32688 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32688 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32688 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32688 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32688 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32688 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32689 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp313-win_amd64.pyd'
+32697 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+32697 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32698 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32698 DEBUG: Processing dependency, name: 'api-ms-win-crt-locale-l1-1-0.dll', resolved path: None
+32698 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32698 DEBUG: Processing dependency, name: 'libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll'
+32698 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll' as 'numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll'.
+32698 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32698 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32698 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32698 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32698 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32698 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32699 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32699 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32699 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32699 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32699 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32699 DEBUG: Processing dependency, name: 'msvcp140-263139962577ecda4cd9469ca360a746.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll'
+32699 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll' as 'numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll'.
+32699 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp313-win_amd64.pyd'
+32704 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32704 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32704 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32704 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32704 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32704 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32704 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32704 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32705 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32705 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md.cp313-win_amd64.pyd'
+32710 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32710 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32710 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32710 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32710 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32710 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32710 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32711 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\psutil\\_psutil_windows.pyd'
+32722 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+32722 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32722 DEBUG: Processing dependency, name: 'POWRPROF.dll', resolved path: 'C:\\WINDOWS\\system32\\POWRPROF.dll'
+32722 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\POWRPROF.dll' due to global exclusion rules.
+32722 DEBUG: Processing dependency, name: 'IPHLPAPI.DLL', resolved path: 'C:\\WINDOWS\\system32\\IPHLPAPI.DLL'
+32722 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\IPHLPAPI.DLL' due to global exclusion rules.
+32722 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+32722 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+32723 DEBUG: Processing dependency, name: 'python3.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python3.dll'
+32723 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python3.dll' as 'python3.dll'.
+32723 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32723 DEBUG: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+32723 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+32723 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32723 DEBUG: Processing dependency, name: 'PSAPI.DLL', resolved path: 'C:\\WINDOWS\\system32\\PSAPI.DLL'
+32723 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\PSAPI.DLL' due to global exclusion rules.
+32723 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32723 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32723 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32723 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32724 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32724 DEBUG: Processing dependency, name: 'SHELL32.dll', resolved path: 'C:\\WINDOWS\\system32\\SHELL32.dll'
+32724 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\SHELL32.dll' due to global exclusion rules.
+32724 DEBUG: Processing dependency, name: 'pdh.dll', resolved path: 'C:\\WINDOWS\\system32\\pdh.dll'
+32724 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\pdh.dll' due to global exclusion rules.
+32724 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\win32pdh.pyd'
+32730 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32731 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32731 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32731 DEBUG: Processing dependency, name: 'VCRUNTIME140_1.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll'
+32731 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll' due to prior processing.
+32731 DEBUG: Processing dependency, name: 'pywintypes313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pywin32_system32\\pywintypes313.dll'
+32731 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pywin32_system32\\pywintypes313.dll' as 'pywin32_system32\\pywintypes313.dll'.
+32731 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32731 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32731 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32732 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32732 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32732 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32732 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp313-win_amd64.pyd'
+32738 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32739 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32739 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32739 DEBUG: Processing dependency, name: 'libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll'
+32739 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll' due to prior processing.
+32739 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32739 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32739 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32739 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32739 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32740 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32740 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32740 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\random\\mtrand.cp313-win_amd64.pyd'
+32745 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32746 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32746 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32746 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32746 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32746 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32746 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32746 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32746 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\random\\_sfc64.cp313-win_amd64.pyd'
+32750 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32750 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32750 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32751 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32751 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32751 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32751 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32751 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\random\\_philox.cp313-win_amd64.pyd'
+32755 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32755 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32755 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32755 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32755 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32755 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32755 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32756 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\random\\_pcg64.cp313-win_amd64.pyd'
+32759 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32759 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32760 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32760 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32760 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32760 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32760 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32760 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\random\\_mt19937.cp313-win_amd64.pyd'
+32764 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32765 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32765 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32765 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32765 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32765 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32765 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32765 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32765 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\random\\bit_generator.cp313-win_amd64.pyd'
+32769 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32769 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32769 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32769 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32770 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32770 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32770 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32770 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\random\\_generator.cp313-win_amd64.pyd'
+32775 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32775 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32775 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32775 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32775 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32775 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32775 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32776 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32776 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32776 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32776 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp313-win_amd64.pyd'
+32781 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32782 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32782 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32782 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32782 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32782 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32782 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32782 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32782 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\random\\_common.cp313-win_amd64.pyd'
+32786 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32787 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32787 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32787 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32787 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32787 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32787 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32787 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32787 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\fft\\_pocketfft_umath.cp313-win_amd64.pyd'
+32793 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32794 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32794 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32794 DEBUG: Processing dependency, name: 'VCRUNTIME140_1.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll'
+32794 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll' due to prior processing.
+32794 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32794 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32794 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32794 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32794 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32794 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32794 DEBUG: Processing dependency, name: 'msvcp140-263139962577ecda4cd9469ca360a746.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll'
+32795 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll' due to prior processing.
+32795 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\_yaml.cp313-win_amd64.pyd'
+32800 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32801 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32801 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32801 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32801 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32801 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32801 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32801 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32801 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32801 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd'
+32806 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32806 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32806 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32806 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32807 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32807 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32807 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32807 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32807 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imaging.cp313-win_amd64.pyd'
+32815 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+32816 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32816 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32816 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32816 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32816 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32816 DEBUG: Processing dependency, name: 'GDI32.dll', resolved path: 'C:\\WINDOWS\\system32\\GDI32.dll'
+32816 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\GDI32.dll' due to global exclusion rules.
+32816 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32816 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32816 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32816 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32816 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32817 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32817 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32817 DEBUG: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+32817 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+32817 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32817 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32817 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_tkinter.pyd'
+32824 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32824 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32824 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32824 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32824 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32824 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32824 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32824 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32825 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32825 DEBUG: Processing dependency, name: 'tcl86t.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\tcl86t.dll'
+32825 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\tcl86t.dll' as 'tcl86t.dll'.
+32825 DEBUG: Processing dependency, name: 'tk86t.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\tk86t.dll'
+32825 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\tk86t.dll' as 'tk86t.dll'.
+32826 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_cffi_backend.cp313-win_amd64.pyd'
+32833 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32833 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32833 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32833 DEBUG: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+32833 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+32833 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32833 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32833 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32833 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32834 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32834 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32834 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32834 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32834 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32834 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32838 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32838 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32838 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32838 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32838 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32838 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32838 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32838 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll'
+32842 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32842 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32842 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32842 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32842 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32842 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32842 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32842 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll'
+32876 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+32876 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32876 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+32876 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+32876 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32876 DEBUG: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+32877 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+32877 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32877 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32877 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32877 DEBUG: Processing dependency, name: 'bcrypt.dll', resolved path: 'C:\\WINDOWS\\system32\\bcrypt.dll'
+32877 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\bcrypt.dll' due to global exclusion rules.
+32877 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32877 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32877 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32877 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32877 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32877 DEBUG: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+32877 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+32878 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32878 DEBUG: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+32878 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll'
+32886 DEBUG: Processing dependency, name: 'libcrypto-3.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll'
+32886 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll' due to prior processing.
+32886 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32886 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32886 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32886 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32886 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32886 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32886 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32886 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32887 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32887 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32887 DEBUG: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+32887 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll'
+32890 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32890 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32890 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32890 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32890 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32890 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python3.dll'
+32909 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32910 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32910 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pywin32_system32\\pywintypes313.dll'
+32921 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll'
+32922 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll' due to prior processing.
+32922 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32922 DEBUG: Processing dependency, name: 'VCRUNTIME140_1.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll'
+32922 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll' due to prior processing.
+32922 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32922 DEBUG: Processing dependency, name: 'OLEAUT32.dll', resolved path: 'C:\\WINDOWS\\system32\\OLEAUT32.dll'
+32922 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\OLEAUT32.dll' due to global exclusion rules.
+32922 DEBUG: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+32922 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+32922 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32922 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32922 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32922 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32922 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32923 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32923 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32923 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32923 DEBUG: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+32923 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+32923 DEBUG: Processing dependency, name: 'ole32.dll', resolved path: 'C:\\WINDOWS\\system32\\ole32.dll'
+32923 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\ole32.dll' due to global exclusion rules.
+32923 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\tcl86t.dll'
+32939 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+32939 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+32939 DEBUG: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+32940 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+32940 DEBUG: Processing dependency, name: 'NETAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\NETAPI32.dll'
+32940 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\NETAPI32.dll' due to global exclusion rules.
+32940 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+32940 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+32940 DEBUG: Processing dependency, name: 'zlib1.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\zlib1.dll'
+32940 DEBUG: Collecting dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\zlib1.dll' as 'zlib1.dll'.
+32940 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32940 DEBUG: Processing dependency, name: 'USERENV.dll', resolved path: 'C:\\WINDOWS\\system32\\USERENV.dll'
+32941 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\USERENV.dll' due to global exclusion rules.
+32941 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32941 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32941 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32941 DEBUG: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+32941 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+32941 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32941 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32941 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32941 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32941 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32941 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32941 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32941 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\tk86t.dll'
+32959 DEBUG: Processing dependency, name: 'IMM32.dll', resolved path: 'C:\\WINDOWS\\system32\\IMM32.dll'
+32959 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\IMM32.dll' due to global exclusion rules.
+32959 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+32959 DEBUG: Processing dependency, name: 'COMDLG32.dll', resolved path: 'C:\\WINDOWS\\system32\\COMDLG32.dll'
+32959 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\COMDLG32.dll' due to global exclusion rules.
+32959 DEBUG: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+32959 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+32959 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+32960 DEBUG: Processing dependency, name: 'GDI32.dll', resolved path: 'C:\\WINDOWS\\system32\\GDI32.dll'
+32960 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\GDI32.dll' due to global exclusion rules.
+32960 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+32960 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+32960 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32960 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32960 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll'
+32960 DEBUG: Skipping dependency 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll' due to prior processing.
+32960 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+32960 DEBUG: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+32960 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+32960 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+32960 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+32960 DEBUG: Processing dependency, name: 'ole32.dll', resolved path: 'C:\\WINDOWS\\system32\\ole32.dll'
+32960 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\ole32.dll' due to global exclusion rules.
+32960 DEBUG: Processing dependency, name: 'COMCTL32.dll', resolved path: 'C:\\WINDOWS\\system32\\COMCTL32.dll'
+32961 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\COMCTL32.dll' due to global exclusion rules.
+32961 DEBUG: Processing dependency, name: 'SHELL32.dll', resolved path: 'C:\\WINDOWS\\system32\\SHELL32.dll'
+32961 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\SHELL32.dll' due to global exclusion rules.
+32961 DEBUG: Analyzing binary 'C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\zlib1.dll'
+32964 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+32964 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+32964 DEBUG: Processing dependency, name: 'msvcrt.dll', resolved path: 'C:\\WINDOWS\\system32\\msvcrt.dll'
+32964 DEBUG: Skipping dependency 'C:\\WINDOWS\\system32\\msvcrt.dll' due to global exclusion rules.
+33059 INFO: Warnings written to C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build\build\warn-build.txt
+33154 INFO: Graph cross-reference written to C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build\build\xref-build.html
+33195 INFO: Graph drawing written to C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build\build\graph-build.dot
+33263 INFO: checking PYZ
+33263 INFO: Building PYZ because PYZ-00.toc is non existent
+33263 INFO: Building PYZ (ZlibArchive) C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build\build\PYZ-00.pyz
+34097 INFO: Building PYZ (ZlibArchive) C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build\build\PYZ-00.pyz completed successfully.
+34123 INFO: checking PKG
+34123 INFO: Building PKG because PKG-00.toc is non existent
+34123 INFO: Building PKG (CArchive) build.pkg
+34135 DEBUG: Compiling python script/module file C:\Users\Spa\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+34136 DEBUG: Compiling python script/module file C:\Users\Spa\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_inspect.py
+34136 DEBUG: Compiling python script/module file C:\Users\Spa\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py
+34137 DEBUG: Compiling python script/module file C:\Users\Spa\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py
+34139 DEBUG: Compiling python script/module file C:\Users\Spa\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_multiprocessing.py
+34140 DEBUG: Compiling python script/module file C:\Users\Spa\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth__tkinter.py
+34140 DEBUG: Compiling python script/module file C:\Users\Spa\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_setuptools.py
+34141 DEBUG: Compiling python script/module file C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build.py
+34150 INFO: Building PKG (CArchive) build.pkg completed successfully.
+34151 INFO: Bootloader C:\Users\Spa\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\run.exe
+34151 INFO: checking EXE
+34152 INFO: Building EXE because EXE-00.toc is non existent
+34152 INFO: Building EXE from EXE-00.toc
+34152 INFO: Copying bootloader EXE to C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\build\build\build.exe
+34156 INFO: Copying icon to EXE
+34157 DEBUG: Copying icons from ['C:\\Users\\Spa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico']
+34158 DEBUG: Writing RT_GROUP_ICON 1 resource with 104 bytes
+34158 DEBUG: Writing RT_ICON 1 resource with 3752 bytes
+34158 DEBUG: Writing RT_ICON 2 resource with 2216 bytes
+34158 DEBUG: Writing RT_ICON 3 resource with 1384 bytes
+34158 DEBUG: Writing RT_ICON 4 resource with 37019 bytes
+34158 DEBUG: Writing RT_ICON 5 resource with 9640 bytes
+34158 DEBUG: Writing RT_ICON 6 resource with 4264 bytes
+34158 DEBUG: Writing RT_ICON 7 resource with 1128 bytes
+34161 INFO: Copying 0 resources to EXE
+34161 INFO: Embedding manifest in EXE
+34164 INFO: Appending PKG archive to EXE
+34172 INFO: Fixing EXE headers
+34275 INFO: Building EXE from EXE-00.toc completed successfully.
+34287 INFO: checking COLLECT
+34287 INFO: Building COLLECT because COLLECT-00.toc is non existent
+34288 INFO: Building COLLECT COLLECT-00.toc
+35330 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+35357 INFO: Build complete! The results are available in: C:\Users\Spa\Documents\trae_projects\vbadeneme\HisseTakip(YENI)\dist

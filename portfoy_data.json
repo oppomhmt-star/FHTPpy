@@ -1,0 +1,424 @@
+{
+    "portfoy": [
+        {
+            "sembol": "FROTO",
+            "adet": 100,
+            "ort_maliyet": 102.19175999999999,
+            "guncel_fiyat": 97.0999984741211
+        },
+        {
+            "sembol": "ISMEN",
+            "adet": 200,
+            "ort_maliyet": 28.503486,
+            "guncel_fiyat": 44.68000030517578
+        },
+        {
+            "sembol": "ANHYT",
+            "adet": 200,
+            "ort_maliyet": 93.17484,
+            "guncel_fiyat": 106.30000305175781
+        },
+        {
+            "sembol": "AKSA",
+            "adet": 190,
+            "ort_maliyet": 9.01692,
+            "guncel_fiyat": 12.0600004196167
+        },
+        {
+            "sembol": "AVPGY",
+            "adet": 100,
+            "ort_maliyet": 52.09776,
+            "guncel_fiyat": 57.650001525878906
+        },
+        {
+            "sembol": "BIMAS",
+            "adet": 20,
+            "ort_maliyet": 525.987,
+            "guncel_fiyat": 556.0
+        },
+        {
+            "sembol": "YGGYO",
+            "adet": 10,
+            "ort_maliyet": 100.188,
+            "guncel_fiyat": 100.188
+        }
+    ],
+    "islemler": [
+        {
+            "tip": "Alım",
+            "sembol": "YGGYO",
+            "adet": 10,
+            "fiyat": 100.0,
+            "toplam": 1000.0,
+            "tarih": "2025-11-08 18:29:58"
+        },
+        {
+            "tip": "Alım",
+            "sembol": "BIMAS",
+            "adet": 10,
+            "fiyat": 525.0,
+            "toplam": 5250.0,
+            "tarih": "2025-11-08 18:29:37"
+        },
+        {
+            "tip": "Alım",
+            "sembol": "BIMAS",
+            "adet": 10,
+            "fiyat": 525.0,
+            "toplam": 5250.0,
+            "tarih": "2025-11-08 18:20:25"
+        },
+        {
+            "tip": "Alım",
+            "sembol": "AVPGY",
+            "adet": 100,
+            "fiyat": 52.0,
+            "toplam": 5200.0,
+            "tarih": "2025-11-05 22:24:59"
+        },
+        {
+            "tip": "Alım",
+            "sembol": "AKSA",
+            "adet": 190,
+            "fiyat": 9.0,
+            "toplam": 1710.0,
+            "tarih": "2025-11-05 22:18:48"
+        },
+        {
+            "tip": "Alım",
+            "sembol": "ANHYT",
+            "adet": 100,
+            "fiyat": 93.0,
+            "toplam": 9300.0,
+            "tarih": "2025-11-05 21:56:32"
+        },
+        {
+            "tip": "Alım",
+            "sembol": "ANHYT",
+            "adet": 100,
+            "fiyat": 93.0,
+            "toplam": 9300.0,
+            "tarih": "2025-11-05 21:56:24"
+        },
+        {
+            "tip": "Alım",
+            "sembol": "ISMEN",
+            "adet": 200,
+            "fiyat": 28.45,
+            "toplam": 5690.0,
+            "tarih": "2025-11-05 21:48:29"
+        },
+        {
+            "tip": "Alım",
+            "sembol": "FROTO",
+            "adet": 100,
+            "fiyat": 102.0,
+            "toplam": 10200.0,
+            "tarih": "2025-11-05 21:41:15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "THYAO",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "THYAO",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "THYAO",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "THYAO",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "THYAO",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "THYAO",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "THYAO",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "THYAO",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "THYAO",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "AKBNK",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "AKBNK",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "AKBNK",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "AKBNK",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "AKBNK",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "AKBNK",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "AKBNK",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "AKBNK",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "AKBNK",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "EREGL",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 620.0,
+            "tarih": "2024-01-10"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "EREGL",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 620.0,
+            "tarih": "2024-01-10"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "EREGL",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 620.0,
+            "tarih": "2024-01-10"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "EREGL",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 620.0,
+            "tarih": "2024-01-10"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "EREGL",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 620.0,
+            "tarih": "2024-01-10"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "EREGL",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 620.0,
+            "tarih": "2024-01-10"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "EREGL",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 620.0,
+            "tarih": "2024-01-10"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "EREGL",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 620.0,
+            "tarih": "2024-01-10"
+        },
+        {
+            "tip": "Temettü",
+            "sembol": "EREGL",
+            "adet": 0,
+            "fiyat": 0,
+            "toplam": 620.0,
+            "tarih": "2024-01-10"
+        }
+    ],
+    "temettüler": [
+        {
+            "sembol": "THYAO",
+            "tutar": 1250.0,
+            "tarih": "2024-03-15"
+        },
+        {
+            "sembol": "AKBNK",
+            "tutar": 850.5,
+            "tarih": "2024-02-20"
+        },
+        {
+            "sembol": "EREGL",
+            "tutar": 620.0,
+            "tarih": "2024-01-10"
+        },
+        {
+            "sembol": "FROTO",
+            "tutar": 5.14,
+            "tarih": "2025-11-05 22:08:50"
+        },
+        {
+            "sembol": "FROTO",
+            "tutar": 12.0,
+            "tarih": "2025-11-05 22:27:12"
+        },
+        {
+            "sembol": "AKBNK",
+            "tutar": 2000.0,
+            "adet": 400,
+            "hisse_basi_tutar": 5.0,
+            "tarih": "2025-11-05 22:36:06"
+        },
+        {
+            "sembol": "EREGL",
+            "tutar": 20000.0,
+            "adet": 200,
+            "hisse_basi_tutar": 100.0,
+            "tarih": "2025-11-05 22:36:43"
+        },
+        {
+            "sembol": "THYAO",
+            "tutar": 25000.0,
+            "adet": 250,
+            "hisse_basi_tutar": 100.0,
+            "tarih": "2025-11-05 22:38:58"
+        },
+        {
+            "sembol": "ISMEN",
+            "tutar": 1112.0,
+            "adet": 200,
+            "hisse_basi_tutar": 5.56,
+            "tarih": "2025-11-05 23:09:35"
+        }
+    ],
+    "ayarlar": {
+        "doviz_kuru": 34.5,
+        "tema": "dark",
+        "dil": "tr (Türkçe)",
+        "otomatik_guncelleme": true,
+        "guncelleme_suresi": 15,
+        "start_page": "dashboard",
+        "language": "Türkçe",
+        "date_format": "DD/MM/YYYY",
+        "currency_format": "₺",
+        "font_size": "small",
+        "chart_animations": true,
+        "compact_mode": false,
+        "auto_update": true,
+        "update_interval": "5 Dakika",
+        "update_after_hours": false,
+        "cache_duration": 5,
+        "notifications_enabled": true,
+        "desktop_notifications": true,
+        "sound_alerts": true,
+        "price_target_alert": true,
+        "price_change_threshold": "5",
+        "daily_change_threshold": "3",
+        "commission_rate": 0.04,
+        "tax_rate": 0.0,
+        "portfolio_target": "100000",
+        "risk_tolerance": "low",
+        "investment_period": "short",
+        "last_backup": "2025-11-08T18:09:31.611281",
+        "debug_mode": false,
+        "performance_mode": true,
+        "log_level": "error"
+    }
+}
